@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "borrowed_items",
+  "info": {
+    "singularName": "borrowed-item",
+    "pluralName": "borrowed-items",
+    "displayName": "borrowed_items",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "property_no": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::item.item",
+      "mappedBy": "borrowed_item"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "borrowed_items"
+    },
+    "date": {
+      "type": "string"
+    },
+    "date_return": {
+      "type": "string"
+    }
+  }
+}

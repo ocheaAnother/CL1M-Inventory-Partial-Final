@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "id_numbers",
+  "info": {
+    "singularName": "id-number",
+    "pluralName": "id-numbers",
+    "displayName": "id-number"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    }
+  }
+}

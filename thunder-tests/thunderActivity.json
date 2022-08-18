@@ -1,0 +1,36 @@
+[
+  {
+    "_id": "95bc8e08-6ad5-4b2c-b05a-670b89602c32",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://10.10.10.58:1337/api/borrowed-items",
+    "url": "http://10.10.10.58:1337/api/borrowed-items",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-17T02:30:36.877Z",
+    "modified": "2022-08-17T02:30:37.327Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "50208833-666f-484e-afc7-f75be0b630ab",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://10.10.10.58:1337/api/borrowed-items?filters[username][$eq]=191-00620",
+    "url": "http://10.10.10.58:1337/api/borrowed-items?filters[username][$eq]=191-00620",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-08-18T10:20:15.645Z",
+    "modified": "2022-08-18T10:20:43.483Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "filters[username][$eq]",
+        "value": "191-00620",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]
